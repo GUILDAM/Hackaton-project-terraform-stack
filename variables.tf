@@ -23,10 +23,6 @@ variable "INSTANCE_USERNAME" {
 variable "ECR_REGISTRY" {
 }
 
-variable "env" {
-  default = "prod"
-}
-
 variable "project" {
   default = "fiap-lab"
 }
