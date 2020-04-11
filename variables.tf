@@ -1,5 +1,4 @@
 variable "aws_region" {
-  description = "The AWS region to create things in."
   default     = "us-east-1"
 }
 
@@ -22,4 +21,12 @@ variable "INSTANCE_USERNAME" {
   default = "ubuntu"
 }
 variable "ECR_REGISTRY" {
+}
+
+variable "env" {
+  default = "prod"
+}
+
+variable "project" {
+  default = "fiap-lab"
 }
